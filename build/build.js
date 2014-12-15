@@ -1,0 +1,1 @@
+({appDir:"../",baseUrl:"js",dir:"../app-build",paths:{jquery:"lib/jquery-min",backbone:"lib/backbone-min",localStorage:"lib/backbone.localStorage-min",underscore:"lib/underscore-min"},optimizeCss:"standard.keepLines",modules:[{name:"main"}],fileExclusionRegExp:/\.git/});

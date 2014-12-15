@@ -1,0 +1,1 @@
+define(["jquery","underscore","backbone"],function(e,t,n){var r=n.View.extend({tagName:"tr",className:"itemContainer",template:t.template(e("#inventoryTemplate").html()),events:{"click .delete":"deleteItem"},deleteItem:function(){this.model.destroy(),this.remove()},render:function(){return this.$el.html(this.template(this.model.attributes)),this}});return r});

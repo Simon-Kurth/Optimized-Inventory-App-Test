@@ -1,0 +1,1 @@
+define(["jquery","backbone"],function(e,t){var n=t.Model.extend({defaults:{component:"no component",stockQty:"no stock qty",reorderQty:"NA",qtyPerCrane:"no qty per crane",vendorID:"NA"}});return n});
